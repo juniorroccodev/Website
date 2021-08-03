@@ -49,7 +49,7 @@
    </nav>
 
    <!-- home section start --> 
-   <section class="home-section section active" id="home">
+   <section class="home-section section hide active" id="home">
        <div class="body">
            <div class="glowing">
                <span style="--i:1;"></span>
@@ -101,7 +101,7 @@
    <!-- home section end -->
 
    <!-- about section start -->
-   <section class="about-section section" id="about">
+   <section class="about-section hide section" id="about">
        <div class="container">
            <div class="row">
                <div class="section-title">
@@ -264,7 +264,7 @@
   
    <!-- service section -->
 
-   <section class="service-section section" id="services">
+   <section class="service-section section hide " id="services">
        <div class="container">
            <div class="row">
                <div class="section-title">
@@ -333,8 +333,127 @@
            </div>
        </div>
    </section>
-
    <!-- service section end -->
+
+   <!--portfolio section start-->
+   <section class="portfolio-section section" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="Portfólio">Trabalhos Recentes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-filter padd-15">
+                <button type="button" class="active" data-filter="all">Todos</button>
+                <button type="button" data-filter="angular">Angular</button>
+                <button type="button" data-filter="springboot">Spring Boot</button>
+                <button type="button" data-filter="frond-end">Frond-End</button>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="portfolio-item padd-15" data-category="angular">
+                <div class="portfolio-item-inner shadow-dark">
+                    <div class="portfolio-img">
+                        <img src="img/angular.logo.png" alt="portfolio">
+                    </div>
+                        <div class="portfolio-info">
+                            <h4>Angular</h4>
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item padd-15" data-category="springboot">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="img/spring-boot-logo.png" alt="portfolio">
+                        </div>
+                            <div class="portfolio-info">
+                                <h4>Spring Boot</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="portfolio-item padd-15" data-category="frond-end">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img">
+                            <img src="img/hcj.logo.png" alt="portfolio">
+                        </div>
+                            <div class="portfolio-info">
+                                <h4>Frond-End</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15" data-category="springboot">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="img/logo-postgresql.png" alt="portfolio">
+                            </div>
+                                <div class="portfolio-info">
+                                    <h4>PostgreSQL</h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15" data-category="springboot">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="img/hibernate_logo.gif" alt="portfolio">
+                                </div>
+                                    <div class="portfolio-info">
+                                        <h4>Hibernate</h4>
+                                        <div class="icon">
+                                            <i class="fa fa-search"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item padd-15" data-category="springboot">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="img/logo-primefaces.jpg" alt="portfolio">
+                                    </div>
+                                        <div class="portfolio-info">
+                                            <h4>PrimeFaces</h4>
+                                            <div class="icon">
+                                                <i class="fa fa-search"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            <!-- portfolio item end-->    
+            </div>
+        </div>
+   </section>
+    <!--portfolio section end-->    
+
+    <!--light box-->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <div class="lightbox-close">&times;</div>
+            <img src="img/angular.logo.png" class="lightbox-img" alt="">
+            <div class="lightbox-caption">
+                <div class="caption-text">angular </div>
+                    <div class="caption-counter">7</div>
+                </div>
+            </div>
+        </div>
+   
   <!-- main js -->
   <script>src="js/main.js"</script>
 </body>
